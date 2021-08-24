@@ -1,0 +1,15 @@
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    background-color: red;
+    grid-area: footer;
+    padding-bottom: 0.3em;
+}
+
+footer > .footer-info{
+    margin-top: 0.3em;
+}

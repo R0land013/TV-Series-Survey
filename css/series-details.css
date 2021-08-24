@@ -1,0 +1,39 @@
+
+.series-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 1em;
+}
+
+.series-details > img{
+    width: 30vw;
+}
+
+.series-details > .detail-value-pair{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.detail-value-pair .detail-type{
+    font-weight: bold;
+}
+
+.detail-value-pair > *{
+    display: block;
+}
+
+.series-details{
+    display: block;
+}
+
+#series-genre-list > li{
+    list-style-position: inside;
+    text-align: left;
+    text-indent: 15%;
+}

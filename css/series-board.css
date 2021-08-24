@@ -1,0 +1,21 @@
+.series-board{
+
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+
+
+
+
+
+}
+
+@media screen and (orientation: portrait){
+
+  .series-board{
+    flex-flow: column;
+    justify-content: space-between;
+  }
+}

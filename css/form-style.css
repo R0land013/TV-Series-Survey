@@ -1,0 +1,27 @@
+
+.survey-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+
+
+.survey-form-part{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 1.5em;
+}
+
+
+#liked-things{
+    resize: none;
+    width: 80%;
+    height: 10em;
+}

@@ -1,0 +1,28 @@
+
+.main-content{
+  display: flex;
+  flex-flow: row;
+}
+
+@media screen and (orientation: portrait){
+
+  .main-content{
+    flex-flow: column;
+    flex-direction: column-reverse;
+  }
+}
+
+main{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
+
+
+}
+
+
+

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TV Series Survey</title>
+    <link rel="stylesheet" href="css/viewport.css">
+    <link rel="stylesheet" href="css/base-layout.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/semantic-sections.css">
+    <link rel="stylesheet" href="css/series-details.css">
+    <link rel="stylesheet" href="css/series-board.css">
+    <link rel="stylesheet" href="css/series-selector.css">
+    <link rel="stylesheet" href="css/form-style.css">
+    <link rel="stylesheet" href="css/footer-style.css">
+
+    <script src="/js/main.js" type="module"></script>
+    <script src="/js/series.js" type="module"></script>
+    <script src="/js/selector-group.js" type="module"></script>
+    <script src="/js/character-selector.js" type="module"></script>
+    <script src="/js/series-detail.js" type="module"></script>
+    <script src="/js/button.js" type="module"></script>
+    <script src="/js/message-display.js" type="module"></script>
+    <script src="/js/textarea.js" type="module"></script>
+    <script src="/js/field.js" type="module"></script>
+    <script src="/js/field-watcher.js" type="module"></script>
+</head>
+<body>
+    <header class="banner">
+        <img class="banner-logo" src="img/logo.png" alt="logo">
+    </header>
+
+    <div class="page">
+
+        <div class="main-content">
+
+            <aside class="series-details" id="series-details">
+                <h2>Series details</h2>
+                <img class="detail-image" alt="detail-image" src="img/no-selected.png">
+
+                <div class="detail-value-pair">
+
+                    <label class="detail-type" id="genre">Genre:</label>
+                    <ul class="detail-type-list" id="series-genre-list">
+
+                        <li class="">
+                            No Genre
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="detail-value-pair">
+                    <label class="detail-type" id="series-episodes">Number of episodes:</label>
+                    <label class="detail-value" id="episodes-value">No episodes</label>
+                </div>
+            </aside>
+
+            <main class="survey-main-content">
+
+                <h1>What's your favourite series?</h1>
+
+                <div class="series-board">
+
+                    <div class="series-selector" id="big-bang-selector">
+                        <img src="img/big-bang-theory.jpg" alt="the big bang theory image">
+                        <h3>
+                            The Big Bang Theory
+                        </h3>
+                        <button class="button-to-select" id="big-bang-button">
+                            SELECT
+                        </button>
+
+                    </div>
+
+                    <div class="series-selector" id="mr-robot-selector">
+                        <img src="img/mr-robot.jpg" alt="mr robot image">
+                        <h3>
+                            Mr. Robot
+                        </h3>
+                        <div class="button-to-select" id="mr-robot-button">
+                            SELECT
+                        </div>
+
+                    </div>
+
+                    <div class="series-selector" id="game-thrones-selector">
+                        <img src="img/game-thrones.jpg" alt="game of thrones image">
+                        <h3>
+                            Game of Thrones
+                        </h3>
+                        <div class="button-to-select" id="game-thrones-button">
+                            SELECT
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <form class="survey-form">
+                    <div class="survey-form-part">
+                        <label for="character" class="form-label" id="character-selector-label">*Select your favourite character:</label>
+                        <select id="character-selector" name="character" class="input-type">
+                        </select>
+                    </div>
+
+                    <div class="survey-form-part">
+                        <label class="form-label" for="liked-things" id="liked-things-label">*What you liked about that series?</label>
+                        <textarea id="liked-things" placeholder="I liked ..."
+                        class="input-type" name="liked-things" maxlength="500"></textarea>
+                    </div>
+
+                    <div class="survey-form-part" id="submit-form-part">
+                        <input type="button" id="submit-button" value="Submit">
+                    </div>
+                </form>
+
+            </main>
+
+        </div>
+
+        <footer class="page-footer">
+            <span class="footer-info">Created by: Rolando Rio Garaboa</span>
+            <span class="footer-info">email: rolandorio06@gmail.com</span>
+            <span class="footer-info">Images from: www.pixabay.com</span>
+            <span class="footer-info">Information from: Wikipedia</span>
+        </footer>
+
+    </div>
+</body>
+</html>
